@@ -20,11 +20,7 @@ export class StoreController {
 
   @UseGuards(JwtAuthGuard)
   @Get('/api/store/*')
-  getFileContentOrFilesInFolder(
-    @Param() params,
-    @Body() body,
-    @User() user: UserInfo,
-  ) {
+  getFileContentOrFilesInFolder(@Param() params, @User() user: UserInfo) {
     return this.storeService.read(params[0], user.id);
   }
 
