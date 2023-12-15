@@ -12,7 +12,7 @@ $ npm install
 
 ## Running the app
 
-! Create `.env` with variables before launching. File can ba created based on `.env.example`
+!IMPORTANT Create `.env` with variables before launching. File can ba created based on `.env.example`
 
 ```bash
 # development
