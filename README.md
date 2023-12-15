@@ -12,6 +12,8 @@ $ npm install
 
 ## Running the app
 
+! Create `.env` with variables before launching. File can ba created based on `.env.example`
+
 ```bash
 # development
 $ npm run start
@@ -52,7 +54,7 @@ Nest is [MIT licensed](LICENSE).
 
 ### Login user.
 
-User `test@email.com` is hardcoded in the code
+User `test@email.com`with password `Pa$$W0rd!` is hardcoded in the code
 
 ```
 curl -i -X POST \
